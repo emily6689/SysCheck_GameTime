@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+
+  <body>
+
+  <h1>NBA Official Leaderboard</h1>
+  <table>
+  <tr>
+    <td class = "first">Team</td>
+    <td class = "first">Wins</td>
+    <td class = "first">Losses</td>
+  </tr>
+
+  <%@team_data.each do |team, stats|%>
+  <tr>
+    <td><%=team%></td>
+    <td><%=stats[:wins]%></td>
+    <td><%=stats[:losses]%></td>
+  </tr>
+
+<%end%>
+
+  </table>
+
+
+
+
+  </body>
+
+
+</html>

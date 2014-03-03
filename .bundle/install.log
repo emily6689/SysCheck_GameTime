@@ -1,0 +1,11 @@
+# Logfile created on 2014-03-01 15:41:01 -0500 by logger.rb/41954
+I, [2014-03-01T15:41:01.234619 #4670]  INFO -- : 0:  coderay (1.1.0) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/coderay-1.1.0.gemspec
+I, [2014-03-01T15:41:01.235205 #4670]  INFO -- : 0:  method_source (0.8.2) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/method_source-0.8.2.gemspec
+I, [2014-03-01T15:41:01.235690 #4670]  INFO -- : 0:  slop (3.4.7) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/slop-3.4.7.gemspec
+I, [2014-03-01T15:41:01.236140 #4670]  INFO -- : 0:  pry (0.9.12.6) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/pry-0.9.12.6.gemspec
+I, [2014-03-01T15:41:01.236568 #4670]  INFO -- : 0:  rack (1.5.2) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-03-01T15:41:01.236999 #4670]  INFO -- : 0:  rack-protection (1.5.2) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.2.gemspec
+I, [2014-03-01T15:41:01.250082 #4670]  INFO -- : 0:  shotgun (0.9) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/shotgun-0.9.gemspec
+I, [2014-03-01T15:41:01.250546 #4670]  INFO -- : 0:  tilt (1.4.1) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-03-01T15:41:01.250923 #4670]  INFO -- : 0:  sinatra (1.4.4) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.4.gemspec
+I, [2014-03-01T15:41:01.251240 #4670]  INFO -- : 0:  bundler (1.5.1) from /Users/emily6689/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec

@@ -1,0 +1,39 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Use a "Matrix"-style color scheme. */
+    margin: 0 auto;
+    width: 500px;
+    background-color: rgba(196, 163, 150, 0.87);;
+    color: rgb(6, 0, 155);
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 1.5em;
+}
+
+td.first{
+
+    color: rgb(155, 0, 0);
+}
+
+
+}
+
+.main_page{
+    list-style-type: none;
+}
+
+.table{
+    margin: 0 auto;
+    width: 200x;
+}
+
+table{
+    margin: 0 auto;
+    width: 500px;
+}
+
+

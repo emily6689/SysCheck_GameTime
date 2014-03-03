@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Team Information</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+
+
+  <body>
+  <h1><%=@team_name%></h1>
+  <table>
+  <tr>
+  <td class = "first">Wins</td>
+  <td class = "first">Losses</td>
+  </tr>
+  <tr>
+  <td><%=@team_data[@team_name][:wins]%></td>
+  <td><%=@team_data[@team_name][:losses]%></td>
+  </tr>
+  </table>
+
+
+  <h2>Game Summaries</h2>
+  <table>
+  <tr>
+    <td class = "first">Home Team</td>
+    <td class = "first">Away Team</td>
+    <td class = "first">Home Score</td>
+    <td class = "first">Away Score</td>
+  </tr>
+  <%@game_data.each do |game| %>
+  <%if game["home_team"]==@team_name || game["away_team"]==@team_name%>
+    <tr>
+    <td><%=game["home_team"]%></td>
+    <td><%=game["away_team"]%></td>
+    <td><%=game["home_score"]%></td>
+    <td><%=game["away_score"]%></td>
+  </tr>
+<%end%>
+<%end%>
+
+
+  </table>
+
+
+  </body>
+
+
+</html>
